@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:layout_height="match_parent"
+    tools:context=".activities.SettingScreen">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:minHeight="100dp"
+        android:id="@+id/itemProducts"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_drw"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:id="@+id/imgDark"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/baseline_dark_mode_24"
+            android:layout_height="80dp"/>
+
+
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchDarkMode"
+            android:textStyle="bold"
+            android:text="Dark Mode"
+            app:thumbTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginEnd="10dp"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/imgDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:checked="false" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

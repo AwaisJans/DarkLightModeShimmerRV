@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jans.rv.shimmer.dark.mode.app.shimmerEffect.ShimmerFrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:shimmer_duration="1"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="vertical">
+
+        <include layout="@layout/shimmer_item_list"/>
+        <include layout="@layout/shimmer_item_list"/>
+        <include layout="@layout/shimmer_item_list"/>
+        <include layout="@layout/shimmer_item_list"/>
+        <include layout="@layout/shimmer_item_list"/>
+        <include layout="@layout/shimmer_item_list"/>
+
+    </LinearLayout>
+</com.jans.rv.shimmer.dark.mode.app.shimmerEffect.ShimmerFrameLayout>
+
+
+

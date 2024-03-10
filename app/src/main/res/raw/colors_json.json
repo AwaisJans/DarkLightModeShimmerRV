@@ -1,0 +1,64 @@
+{
+  "modules": [
+    {
+      "module_name": "Module 1",
+      "day_colors": {
+        "primary_color": "#3F51B5",
+        "secondary_color": "#2196F3",
+        "text_color": "#212121",
+        "background_color": "#FFFFFF"
+      },
+      "night_colors": {
+        "primary_color": "#d6a7a1",
+        "secondary_color": "#673AB7",
+        "text_color": "#FFFFFF",
+        "background_color": "#121212"
+      }
+    },
+    {
+      "module_name": "Module 2",
+      "day_colors": {
+        "primary_color": "#FF5722",
+        "secondary_color": "#FF9800",
+        "text_color": "#000000",
+        "background_color": "#FFFFFF"
+      },
+      "night_colors": {
+        "primary_color": "#672c47",
+        "secondary_color": "#FFC107",
+        "text_color": "#FFFFFF",
+        "background_color": "#121212"
+      }
+    },
+    {
+      "module_name": "Module 3",
+      "day_colors": {
+        "primary_color": "#4CAF50",
+        "secondary_color": "#8BC34A",
+        "text_color": "#000000",
+        "background_color": "#FFFFFF"
+      },
+      "night_colors": {
+        "primary_color": "#f0a858",
+        "secondary_color": "#558B2F",
+        "text_color": "#FFFFFF",
+        "background_color": "#121212"
+      }
+    },
+    {
+      "module_name": "Module 4",
+      "day_colors": {
+        "primary_color": "#E91E63",
+        "secondary_color": "#FF4081",
+        "text_color": "#212121",
+        "background_color": "#FFFFFF"
+      },
+      "night_colors": {
+        "primary_color": "#000080",
+        "secondary_color": "#F06292",
+        "text_color": "#FFFFFF",
+        "background_color": "#121212"
+      }
+    }
+  ]
+}
